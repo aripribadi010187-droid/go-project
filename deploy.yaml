@@ -1,0 +1,80 @@
+apiVersion: tekton.dev/v1
+kind: Task
+
+metadata:
+  name: deploy-minikube
+  namespace: cicd
+
+spec:
+
+  params:
+
+    - name: BACKEND_IMAGE
+      type: string
+
+    - name: FRONTEND_IMAGE
+      type: string
+
+    - name: TAG
+      type: string
+
+  workspaces:
+
+    - name: source
+
+  steps:
+
+    - name: deploy
+
+      image: bitnami/kubectl:latest
+
+      workingDir: $(workspaces.source.path)
+
+      script: |
+        #!/bin/sh
+
+        set -e
+
+        echo "===================================="
+        echo "DEPLOY TO MINIKUBE"
+        echo "===================================="
+
+
+        kubectl apply -f backend-deployment.yaml -n cicd
+        kubectl apply -f backend-service.yaml -n cicd
+        kubectl apply -f backend-hpa.yaml -n cicd
+
+        kubectl apply -f frontend-deployment.yaml -n cicd
+        kubectl apply -f frontend-service.yaml -n cicd
+        kubectl apply -f frontend-hpa.yaml -n cicd
+
+        echo "Updating backend image..."
+
+        kubectl set image deployment/employee-backend \
+          backend=$(params.BACKEND_IMAGE):$(params.TAG) \
+
+        echo "Updating frontend image..."
+
+        kubectl set image deployment/employee-frontend \
+          frontend=$(params.FRONTEND_IMAGE):$(params.TAG) \
+
+        echo "Waiting backend rollout..."
+
+        kubectl rollout status \
+          deployment/employee-backend \
+          --timeout=300s
+
+        echo "Waiting frontend rollout..."
+
+        kubectl rollout status \
+          deployment/employee-frontend \
+          --timeout=300s
+
+        echo "===================================="
+        echo "DEPLOYMENT SUCCESS"
+        echo "===================================="
+
+        kubectl get pods
+
+        kubectl get svc
+        kubectl get hpa

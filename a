@@ -1,2 +1,33 @@
 git config --global user.email "aripribadi010187@gmail.com"
 git config --global user.name "aripribadi010187-droid"
+
+dckr_pat_8aDzX1p1TK6-JUoHmx1p3BI18kg
+
+
+kubectl create secret docker-registry dockerhub-secret \
+  --docker-server=https://index.docker.io/v1/ \
+  --docker-username=aripribadi010187 \
+  --docker-password='dckr_pat_8aDzX1p1TK6-JUoHmx1p3BI18kg' \
+  -n cicd
+
+
+  tkn pipeline start employee-ci-cd \
+  -n cicd \
+  -p repo-url=https://github.com/aripribadi010187-droid/go-project.git \
+  -p revision=main \
+  -p backend-image=aripribadi010187/go-project_backend \
+  -p frontend-image=aripribadi010187/go-project_frontend \
+  -p image-tag=v1 \
+  -w name=shared-workspace,volumeClaimTemplateFile=workspace.yaml \
+  --showlog
+
+
+  kubectl create secret docker-registry dockerhub-secret \
+  --docker-server=https://index.docker.io/v1/ \
+  --docker-username=aripribadi010187 \
+  --docker-password='dckr_pat_8aDzX1p1TK6-JUoHmx1p3BI18kg' \
+  -n cicd
+
+  696  kubectl apply   --filename https://storage.googleapis.com/tekton-releases/pipeline/latest/release.yaml 
+  697  kubectl create namespace cicd
+  698  kubectl apply   --filename https://raw.githubusercontent.com/tektoncd/catalog/main/task/git-clone/0.10/git-clone.yaml   -n cicd
