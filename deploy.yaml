@@ -40,11 +40,11 @@ spec:
         echo "===================================="
 
 
-        kubectl apply -f k8s/backend-deployment.yml -n cicd
+        kubectl apply -f k8s/backend_deployment.yml -n cicd
         kubectl apply -f k8s/backend-service.yml -n cicd
         kubectl apply -f k8s/backend-hpa.yml -n cicd
 
-        kubectl apply -f k8s/frontend-deployment.yml -n cicd
+        kubectl apply -f k8s/frontend_deployment.yml -n cicd
         kubectl apply -f k8s/frontend-service.yml -n cicd
 
         echo "Updating backend image..."
