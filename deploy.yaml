@@ -71,7 +71,7 @@ spec:
         echo "===================================="
 
         kubectl apply \
-          -f k8s/backend-deployment.yml \
+          -f k8s/backend_deployment.yml \
           -n cicd
 
         kubectl apply \
@@ -88,7 +88,7 @@ spec:
         echo "===================================="
 
         kubectl apply \
-          -f k8s/frontend-deployment.yml \
+          -f k8s/frontend_deployment.yml \
           -n cicd
 
         kubectl apply \
