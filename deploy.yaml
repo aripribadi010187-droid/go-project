@@ -11,12 +11,15 @@ spec:
 
     - name: BACKEND_IMAGE
       type: string
+      description: Docker Hub backend image
 
     - name: FRONTEND_IMAGE
       type: string
+      description: Docker Hub frontend image
 
     - name: TAG
       type: string
+      description: Docker image tag
 
   workspaces:
 
@@ -39,41 +42,112 @@ spec:
         echo "DEPLOY TO MINIKUBE"
         echo "===================================="
 
+        echo ""
+        echo "WORKSPACE:"
+        pwd
 
-        kubectl apply -f k8s/backend_deployment.yml -n cicd
-        kubectl apply -f k8s/backend-service.yml -n cicd
-        kubectl apply -f k8s/backend-hpa.yml -n cicd
+        echo ""
+        echo "FILES:"
+        find . -maxdepth 3 -type f | sort
 
-        kubectl apply -f k8s/frontend_deployment.yml -n cicd
-        kubectl apply -f k8s/frontend-service.yml -n cicd
+        echo ""
+        echo "===================================="
+        echo "CHECK KUBERNETES MANIFEST"
+        echo "===================================="
 
-        echo "Updating backend image..."
+        ls -la k8s/
 
-        kubectl set image deployment/employee-backend \
+        echo ""
+        echo "Backend Image:"
+        echo "$(params.BACKEND_IMAGE):$(params.TAG)"
+
+        echo ""
+        echo "Frontend Image:"
+        echo "$(params.FRONTEND_IMAGE):$(params.TAG)"
+
+        echo ""
+        echo "===================================="
+        echo "DEPLOY BACKEND"
+        echo "===================================="
+
+        kubectl apply \
+          -f k8s/backend-deployment.yml \
+          -n cicd
+
+        kubectl apply \
+          -f k8s/backend-service.yml \
+          -n cicd
+
+        kubectl apply \
+          -f k8s/backend-hpa.yml \
+          -n cicd
+
+        echo ""
+        echo "===================================="
+        echo "DEPLOY FRONTEND"
+        echo "===================================="
+
+        kubectl apply \
+          -f k8s/frontend-deployment.yml \
+          -n cicd
+
+        kubectl apply \
+          -f k8s/frontend-service.yml \
+          -n cicd
+
+        echo ""
+        echo "===================================="
+        echo "UPDATE BACKEND IMAGE"
+        echo "===================================="
+
+        kubectl set image \
+          deployment/employee-backend \
           backend=$(params.BACKEND_IMAGE):$(params.TAG) \
+          -n cicd
 
-        echo "Updating frontend image..."
+        echo ""
+        echo "===================================="
+        echo "UPDATE FRONTEND IMAGE"
+        echo "===================================="
 
-        kubectl set image deployment/employee-frontend \
+        kubectl set image \
+          deployment/employee-frontend \
           frontend=$(params.FRONTEND_IMAGE):$(params.TAG) \
+          -n cicd
 
-        echo "Waiting backend rollout..."
+        echo ""
+        echo "===================================="
+        echo "WAITING BACKEND ROLLOUT"
+        echo "===================================="
 
         kubectl rollout status \
           deployment/employee-backend \
+          -n cicd \
           --timeout=300s
 
-        echo "Waiting frontend rollout..."
+        echo ""
+        echo "===================================="
+        echo "WAITING FRONTEND ROLLOUT"
+        echo "===================================="
 
         kubectl rollout status \
           deployment/employee-frontend \
+          -n cicd \
           --timeout=300s
 
+        echo ""
         echo "===================================="
         echo "DEPLOYMENT SUCCESS"
         echo "===================================="
- 
+
+        echo ""
+        echo "PODS:"
         kubectl get pods -n cicd
 
+        echo ""
+        echo "SERVICES:"
         kubectl get svc -n cicd
+
+        echo ""
+        echo "HPA:"
         kubectl get hpa -n cicd
