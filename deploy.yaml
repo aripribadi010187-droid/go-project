@@ -40,13 +40,12 @@ spec:
         echo "===================================="
 
 
-        kubectl apply -f backend-deployment.yaml -n cicd
-        kubectl apply -f backend-service.yaml -n cicd
-        kubectl apply -f backend-hpa.yaml -n cicd
+        kubectl apply -f backend-deployment.yml -n cicd
+        kubectl apply -f backend-service.yml -n cicd
+        kubectl apply -f backend-hpa.yml -n cicd
 
-        kubectl apply -f frontend-deployment.yaml -n cicd
-        kubectl apply -f frontend-service.yaml -n cicd
-        kubectl apply -f frontend-hpa.yaml -n cicd
+        kubectl apply -f frontend-deployment.yml -n cicd
+        kubectl apply -f frontend-service.yml -n cicd
 
         echo "Updating backend image..."
 
@@ -73,8 +72,8 @@ spec:
         echo "===================================="
         echo "DEPLOYMENT SUCCESS"
         echo "===================================="
+ 
+        kubectl get pods -n cicd
 
-        kubectl get pods
-
-        kubectl get svc
-        kubectl get hpa
+        kubectl get svc -n cicd
+        kubectl get hpa -n cicd
