@@ -1,0 +1,121 @@
+Project ID,Project Name,Project Type,Phase,Region,Status,Department,Contractor,Start Date,Estimated End Date,Budget,Cost,Safety Incident,Budget Status
+PP-1001,Natural Gas Plant Project 1,Natural Gas Power Plant,Planning,East,Completed,Electrical,Contractor GridForce Engineering,07/29/2021,12/18/2023,371630000.0,396955325.97,1,Over Budget
+PP-1002,Coal Plant Project 2,Coal Power Plant,Planning,North,Completed,Electrical,Contractor Summit Turbine Works,02/24/2021,03/20/2023,103420000.0,114791419.42,1,Over Budget
+PP-1003,Wind Plant Project 3,Wind Power Plant,Construction,Central,Delayed,Civil,Contractor GridForce Engineering,05/16/2023,10/25/2024,142550000.0,133444690.72,2,Within Budget
+PP-1004,Natural Gas Plant Project 4,Natural Gas Power Plant,Planning,West,Ongoing,Mechanical,Contractor MegaWatt Contracting,06/26/2022,03/28/2025,26510000.0,27405241.42,0,Over Budget
+PP-1005,Biomass Plant Project 5,Biomass Power Plant,Planning,Central,Delayed,Quality Control,Contractor Voltage Dynamics,01/11/2023,02/20/2025,100180000.0,87940213.92,2,Within Budget
+PP-1006,Hydroelectric Plant Project 6,Hydroelectric Power Plant,Planning,South,Ongoing,EHS (Safety),Contractor IronPeak Industrial,07/18/2023,10/25/2025,417880000.0,382385957.65,1,Within Budget
+PP-1007,Hydroelectric Plant Project 7,Hydroelectric Power Plant,Completed,North,Completed,Procurement,Contractor Helios Power Builders,12/01/2021,09/15/2023,192830000.0,240229415.08,2,Over Budget
+PP-1008,Wind Plant Project 8,Wind Power Plant,Completed,East,Ongoing,Electrical,Contractor Alpha Energy Corp,10/09/2022,05/21/2024,137530000.0,128507088.19,4,Within Budget
+PP-1009,Nuclear Plant Project 9,Nuclear Power Plant,Design,West,On Hold,Quality Control,Contractor PowerLine Systems,10/20/2021,01/14/2023,74120000.0,85089433.34,1,Over Budget
+PP-1010,Biomass Plant Project 10,Biomass Power Plant,Commissioning,West,Delayed,Electrical,Contractor GridForce Engineering,11/10/2023,09/25/2025,50000000.0,43442327.51,0,Within Budget
+PP-1011,Solar Plant Project 11,Solar Power Plant,Completed,West,Ongoing,EHS (Safety),Contractor NorthStar Infra,08/17/2023,08/07/2025,129450000.0,138678536.91,4,Over Budget
+PP-1012,Natural Gas Plant Project 12,Natural Gas Power Plant,Completed,Central,Delayed,Quality Control,Contractor MegaWatt Contracting,08/17/2021,12/10/2022,220210000.0,227144298.95,4,Over Budget
+PP-1013,Hydroelectric Plant Project 13,Hydroelectric Power Plant,Commissioning,South,Ongoing,Quality Control,Contractor IronPeak Industrial,11/06/2023,01/17/2026,103460000.0,103415050.88,0,Within Budget
+PP-1014,Coal Plant Project 14,Coal Power Plant,Commissioning,East,On Hold,Civil,Contractor BrightVolt Constructors,01/14/2023,12/28/2025,492730000.0,577829359.83,0,Over Budget
+PP-1015,Wind Plant Project 15,Wind Power Plant,Commissioning,North,Ongoing,Quality Control,Contractor PowerLine Systems,05/22/2021,01/05/2024,268690000.0,241902736.74,2,Within Budget
+PP-1016,Solar Plant Project 16,Solar Power Plant,Procurement,Central,On Hold,Electrical,Contractor Summit Turbine Works,02/16/2022,08/14/2024,159300000.0,198815917.01,2,Over Budget
+PP-1017,Geothermal Plant Project 17,Geothermal Power Plant,Commissioning,West,Ongoing,Electrical,Contractor Helios Power Builders,05/12/2021,10/20/2022,15410000.0,16512872.26,1,Over Budget
+PP-1018,Coal Plant Project 18,Coal Power Plant,Planning,North,Completed,Civil,Contractor Alpha Energy Corp,11/08/2022,07/18/2023,259510000.0,249490553.91,1,Within Budget
+PP-1019,Solar Plant Project 19,Solar Power Plant,Completed,Central,On Hold,Electrical,Contractor PowerLine Systems,04/14/2023,04/22/2024,51690000.0,57561627.33,1,Over Budget
+PP-1020,Biomass Plant Project 20,Biomass Power Plant,Construction,North,Ongoing,Civil,Contractor NorthStar Infra,11/26/2022,08/21/2025,431530000.0,409721567.11,0,Within Budget
+PP-1021,Geothermal Plant Project 21,Geothermal Power Plant,Design,West,Completed,Mechanical,Contractor PowerLine Systems,05/27/2022,05/06/2025,462020000.0,474611106.73,3,Over Budget
+PP-1022,Natural Gas Plant Project 22,Natural Gas Power Plant,Planning,Central,Ongoing,Civil,Contractor Helios Power Builders,12/07/2021,07/26/2023,245390000.0,229562079.9,1,Within Budget
+PP-1023,Coal Plant Project 23,Coal Power Plant,Design,West,Ongoing,EHS (Safety),Contractor IronPeak Industrial,07/21/2023,11/04/2024,214390000.0,264327231.61,5,Over Budget
+PP-1024,Geothermal Plant Project 24,Geothermal Power Plant,Design,South,Delayed,Electrical,Contractor Alpha Energy Corp,05/05/2021,12/06/2023,160230000.0,139409222.68,1,Within Budget
+PP-1025,Solar Plant Project 25,Solar Power Plant,Planning,Central,Ongoing,Electrical,Contractor BrightVolt Constructors,05/20/2021,10/08/2023,431600000.0,436567811.18,4,Over Budget
+PP-1026,Wind Plant Project 26,Wind Power Plant,Commissioning,Central,Ongoing,Procurement,Contractor BrightVolt Constructors,05/09/2023,09/08/2025,293920000.0,311294518.3,4,Over Budget
+PP-1027,Wind Plant Project 27,Wind Power Plant,Completed,East,Completed,Mechanical,Contractor NorthStar Infra,09/26/2021,02/10/2024,324520000.0,335193407.32,4,Over Budget
+PP-1028,Natural Gas Plant Project 28,Natural Gas Power Plant,Planning,West,Ongoing,Civil,Contractor Summit Turbine Works,03/13/2022,02/09/2024,136270000.0,166699602.18,3,Over Budget
+PP-1029,Wind Plant Project 29,Wind Power Plant,Procurement,East,Completed,EHS (Safety),Contractor Summit Turbine Works,09/12/2022,11/26/2024,492010000.0,577048997.23,1,Over Budget
+PP-1030,Hydroelectric Plant Project 30,Hydroelectric Power Plant,Completed,North,Completed,Mechanical,Contractor BrightVolt Constructors,08/08/2021,03/05/2024,278850000.0,267400219.6,2,Within Budget
+PP-1031,Nuclear Plant Project 31,Nuclear Power Plant,Design,East,On Hold,Mechanical,Contractor Alpha Energy Corp,07/09/2021,10/16/2023,214670000.0,206227477.47,0,Within Budget
+PP-1032,Solar Plant Project 32,Solar Power Plant,Completed,East,Completed,Quality Control,Contractor PowerLine Systems,05/26/2023,06/18/2025,9790000.0,8616154.96,3,Within Budget
+PP-1033,Solar Plant Project 33,Solar Power Plant,Commissioning,North,Delayed,Procurement,Contractor Summit Turbine Works,10/31/2021,07/13/2023,68090000.0,66272224.42,3,Within Budget
+PP-1034,Coal Plant Project 34,Coal Power Plant,Procurement,South,Completed,Quality Control,Contractor BrightVolt Constructors,12/26/2022,08/30/2025,282140000.0,338535579.13,5,Over Budget
+PP-1035,Solar Plant Project 35,Solar Power Plant,Design,South,Completed,EHS (Safety),Contractor Alpha Energy Corp,01/03/2022,07/25/2024,462620000.0,538006056.34,1,Over Budget
+PP-1036,Wind Plant Project 36,Wind Power Plant,Procurement,South,Ongoing,EHS (Safety),Contractor Alpha Energy Corp,08/22/2023,10/02/2024,103790000.0,126351949.13,0,Over Budget
+PP-1037,Wind Plant Project 37,Wind Power Plant,Design,North,Completed,EHS (Safety),Contractor MegaWatt Contracting,07/25/2022,06/24/2025,39360000.0,45631254.58,1,Over Budget
+PP-1038,Biomass Plant Project 38,Biomass Power Plant,Completed,Central,Delayed,Civil,Contractor BrightVolt Constructors,06/19/2022,06/16/2023,292390000.0,363563640.8,0,Over Budget
+PP-1039,Biomass Plant Project 39,Biomass Power Plant,Procurement,East,On Hold,Procurement,Contractor Summit Turbine Works,08/25/2021,03/22/2023,450250000.0,416945687.29,0,Within Budget
+PP-1040,Biomass Plant Project 40,Biomass Power Plant,Planning,Central,Completed,Mechanical,Contractor NorthStar Infra,05/24/2021,10/01/2023,460780000.0,506518019.92,2,Over Budget
+PP-1041,Natural Gas Plant Project 41,Natural Gas Power Plant,Completed,East,Delayed,Quality Control,Contractor NorthStar Infra,10/31/2022,06/14/2024,350120000.0,375246358.67,0,Over Budget
+PP-1042,Biomass Plant Project 42,Biomass Power Plant,Completed,South,Delayed,EHS (Safety),Contractor Summit Turbine Works,01/01/2021,05/07/2022,147020000.0,150247862.32,1,Over Budget
+PP-1043,Nuclear Plant Project 43,Nuclear Power Plant,Construction,West,On Hold,Quality Control,Contractor Helios Power Builders,11/13/2023,09/07/2025,397900000.0,490981861.71,2,Over Budget
+PP-1044,Natural Gas Plant Project 44,Natural Gas Power Plant,Procurement,Central,Delayed,Civil,Contractor Helios Power Builders,09/28/2022,11/12/2023,404250000.0,367439635.7,0,Within Budget
+PP-1045,Geothermal Plant Project 45,Geothermal Power Plant,Commissioning,North,On Hold,EHS (Safety),Contractor Voltage Dynamics,02/03/2022,08/06/2024,349700000.0,366398478.4,0,Over Budget
+PP-1046,Coal Plant Project 46,Coal Power Plant,Planning,West,Completed,Electrical,Contractor Summit Turbine Works,08/10/2023,03/28/2024,280920000.0,341876270.58,0,Over Budget
+PP-1047,Solar Plant Project 47,Solar Power Plant,Construction,Central,Delayed,EHS (Safety),Contractor Voltage Dynamics,10/31/2023,07/08/2025,416130000.0,444904881.92,3,Over Budget
+PP-1048,Geothermal Plant Project 48,Geothermal Power Plant,Construction,East,Completed,Quality Control,Contractor IronPeak Industrial,12/04/2023,10/10/2025,315240000.0,302579639.67,0,Within Budget
+PP-1049,Hydroelectric Plant Project 49,Hydroelectric Power Plant,Design,East,Delayed,Mechanical,Contractor Summit Turbine Works,06/15/2021,05/02/2022,79660000.0,79916036.56,0,Over Budget
+PP-1050,Wind Plant Project 50,Wind Power Plant,Planning,West,On Hold,Mechanical,Contractor Summit Turbine Works,08/13/2023,04/09/2025,35820000.0,42380664.67,1,Over Budget
+PP-1051,Coal Plant Project 51,Coal Power Plant,Commissioning,West,On Hold,Civil,Contractor MegaWatt Contracting,09/04/2022,04/12/2025,198040000.0,238966276.39,3,Over Budget
+PP-1052,Wind Plant Project 52,Wind Power Plant,Construction,South,Delayed,EHS (Safety),Contractor PowerLine Systems,03/01/2021,09/30/2022,171380000.0,192229534.5,1,Over Budget
+PP-1053,Solar Plant Project 53,Solar Power Plant,Construction,South,Ongoing,EHS (Safety),Contractor Voltage Dynamics,02/25/2021,11/17/2021,323160000.0,292227058.52,1,Within Budget
+PP-1054,Coal Plant Project 54,Coal Power Plant,Procurement,West,Delayed,Electrical,Contractor PowerLine Systems,11/01/2022,04/09/2024,381810000.0,382440172.15,2,Over Budget
+PP-1055,Biomass Plant Project 55,Biomass Power Plant,Procurement,North,On Hold,Civil,Contractor Summit Turbine Works,04/17/2021,10/07/2022,115990000.0,101775117.92,4,Within Budget
+PP-1056,Coal Plant Project 56,Coal Power Plant,Planning,South,Completed,Civil,Contractor Voltage Dynamics,11/09/2021,01/07/2023,67480000.0,75428033.13,1,Over Budget
+PP-1057,Wind Plant Project 57,Wind Power Plant,Construction,East,Delayed,Electrical,Contractor Voltage Dynamics,08/23/2021,04/25/2024,410550000.0,507393945.35,0,Over Budget
+PP-1058,Coal Plant Project 58,Coal Power Plant,Procurement,Central,On Hold,EHS (Safety),Contractor Helios Power Builders,06/05/2021,07/31/2023,346850000.0,381846109.97,0,Over Budget
+PP-1059,Hydroelectric Plant Project 59,Hydroelectric Power Plant,Completed,Central,Ongoing,Procurement,Contractor Alpha Energy Corp,12/13/2022,12/07/2024,217050000.0,216665463.47,1,Within Budget
+PP-1060,Nuclear Plant Project 60,Nuclear Power Plant,Planning,West,On Hold,Civil,Contractor NorthStar Infra,01/12/2023,04/21/2025,446330000.0,461458685.21,0,Over Budget
+PP-1061,Solar Plant Project 61,Solar Power Plant,Completed,Central,Delayed,Procurement,Contractor Summit Turbine Works,09/18/2023,07/05/2025,220610000.0,252027177.26,0,Over Budget
+PP-1062,Wind Plant Project 62,Wind Power Plant,Planning,East,On Hold,Electrical,Contractor PowerLine Systems,02/16/2023,07/24/2024,19210000.0,22867221.59,0,Over Budget
+PP-1063,Wind Plant Project 63,Wind Power Plant,Procurement,East,Delayed,Mechanical,Contractor Voltage Dynamics,07/20/2022,08/07/2024,10020000.0,12316834.81,0,Over Budget
+PP-1064,Biomass Plant Project 64,Biomass Power Plant,Construction,Central,Completed,Quality Control,Contractor PowerLine Systems,10/03/2023,07/02/2025,397500000.0,352670482.74,0,Within Budget
+PP-1065,Wind Plant Project 65,Wind Power Plant,Procurement,Central,Delayed,EHS (Safety),Contractor Summit Turbine Works,12/24/2023,06/08/2025,215620000.0,247612439.55,0,Over Budget
+PP-1066,Geothermal Plant Project 66,Geothermal Power Plant,Procurement,East,Delayed,Electrical,Contractor BrightVolt Constructors,01/30/2022,06/17/2023,64180000.0,68309699.72,2,Over Budget
+PP-1067,Solar Plant Project 67,Solar Power Plant,Design,South,On Hold,Mechanical,Contractor Voltage Dynamics,12/11/2023,02/09/2026,145080000.0,129151731.1,0,Within Budget
+PP-1068,Wind Plant Project 68,Wind Power Plant,Procurement,South,Delayed,Civil,Contractor Summit Turbine Works,09/17/2021,12/21/2022,27530000.0,24000940.53,0,Within Budget
+PP-1069,Solar Plant Project 69,Solar Power Plant,Completed,West,Ongoing,Civil,Contractor Voltage Dynamics,08/06/2022,05/27/2024,241960000.0,238640882.98,4,Within Budget
+PP-1070,Hydroelectric Plant Project 70,Hydroelectric Power Plant,Construction,North,Ongoing,EHS (Safety),Contractor PowerLine Systems,06/01/2021,07/11/2023,316580000.0,275881624.3,0,Within Budget
+PP-1071,Hydroelectric Plant Project 71,Hydroelectric Power Plant,Planning,South,Ongoing,Procurement,Contractor NorthStar Infra,04/08/2022,12/07/2024,263670000.0,271634359.58,1,Over Budget
+PP-1072,Biomass Plant Project 72,Biomass Power Plant,Procurement,Central,Ongoing,Procurement,Contractor BrightVolt Constructors,03/02/2022,05/30/2024,109460000.0,121957185.56,0,Over Budget
+PP-1073,Solar Plant Project 73,Solar Power Plant,Commissioning,North,Completed,Civil,Contractor NorthStar Infra,07/12/2023,12/13/2025,298940000.0,288926620.75,0,Within Budget
+PP-1074,Hydroelectric Plant Project 74,Hydroelectric Power Plant,Completed,West,Ongoing,Quality Control,Contractor Helios Power Builders,06/26/2022,03/08/2025,396670000.0,430750234.54,3,Over Budget
+PP-1075,Wind Plant Project 75,Wind Power Plant,Construction,North,Completed,Quality Control,Contractor GridForce Engineering,06/29/2022,04/20/2025,75410000.0,65897421.82,3,Within Budget
+PP-1076,Hydroelectric Plant Project 76,Hydroelectric Power Plant,Construction,North,On Hold,Quality Control,Contractor IronPeak Industrial,04/05/2023,07/06/2024,252730000.0,264739246.31,0,Over Budget
+PP-1077,Coal Plant Project 77,Coal Power Plant,Construction,East,Delayed,Civil,Contractor BrightVolt Constructors,04/14/2022,08/31/2024,418800000.0,452337354.78,4,Over Budget
+PP-1078,Hydroelectric Plant Project 78,Hydroelectric Power Plant,Commissioning,North,Completed,EHS (Safety),Contractor Summit Turbine Works,06/25/2023,10/01/2024,94840000.0,102819064.66,2,Over Budget
+PP-1079,Geothermal Plant Project 79,Geothermal Power Plant,Planning,West,Delayed,EHS (Safety),Contractor MegaWatt Contracting,10/20/2022,03/04/2025,56780000.0,51915654.05,1,Within Budget
+PP-1080,Geothermal Plant Project 80,Geothermal Power Plant,Procurement,West,Ongoing,EHS (Safety),Contractor BrightVolt Constructors,10/07/2022,12/19/2023,165020000.0,204306953.45,1,Over Budget
+PP-1081,Coal Plant Project 81,Coal Power Plant,Completed,Central,On Hold,EHS (Safety),Contractor Alpha Energy Corp,01/20/2022,12/31/2023,184080000.0,212166422.32,2,Over Budget
+PP-1082,Coal Plant Project 82,Coal Power Plant,Design,East,Completed,Mechanical,Contractor PowerLine Systems,09/20/2023,07/20/2024,19290000.0,21257751.89,3,Over Budget
+PP-1083,Solar Plant Project 83,Solar Power Plant,Procurement,Central,Ongoing,Procurement,Contractor NorthStar Infra,07/10/2021,08/24/2022,496170000.0,602931867.12,1,Over Budget
+PP-1084,Natural Gas Plant Project 84,Natural Gas Power Plant,Completed,South,On Hold,Quality Control,Contractor IronPeak Industrial,11/09/2023,04/29/2026,140350000.0,166158902.3,5,Over Budget
+PP-1085,Wind Plant Project 85,Wind Power Plant,Construction,Central,Completed,EHS (Safety),Contractor Helios Power Builders,11/07/2023,06/08/2026,440270000.0,526391555.37,0,Over Budget
+PP-1086,Biomass Plant Project 86,Biomass Power Plant,Procurement,Central,Delayed,Civil,Contractor IronPeak Industrial,09/04/2022,07/07/2025,295530000.0,369282742.62,1,Over Budget
+PP-1087,Solar Plant Project 87,Solar Power Plant,Construction,Central,On Hold,Mechanical,Contractor MegaWatt Contracting,02/12/2023,11/19/2024,466760000.0,559104112.67,5,Over Budget
+PP-1088,Wind Plant Project 88,Wind Power Plant,Commissioning,West,Completed,EHS (Safety),Contractor Alpha Energy Corp,10/14/2022,05/13/2025,239120000.0,290619768.69,1,Over Budget
+PP-1089,Solar Plant Project 89,Solar Power Plant,Construction,North,Completed,Procurement,Contractor Voltage Dynamics,11/11/2022,10/16/2025,54680000.0,64960702.26,0,Over Budget
+PP-1090,Geothermal Plant Project 90,Geothermal Power Plant,Planning,South,On Hold,Quality Control,Contractor GridForce Engineering,06/03/2021,03/25/2023,391860000.0,374621730.56,2,Within Budget
+PP-1091,Biomass Plant Project 91,Biomass Power Plant,Completed,North,Delayed,Quality Control,Contractor Summit Turbine Works,02/18/2023,07/06/2024,315270000.0,379892617.42,1,Over Budget
+PP-1092,Coal Plant Project 92,Coal Power Plant,Commissioning,North,Completed,Quality Control,Contractor IronPeak Industrial,04/11/2022,11/10/2024,49740000.0,61744007.44,2,Over Budget
+PP-1093,Natural Gas Plant Project 93,Natural Gas Power Plant,Construction,South,Delayed,Civil,Contractor Alpha Energy Corp,10/27/2022,07/18/2025,32780000.0,32563171.34,1,Within Budget
+PP-1094,Wind Plant Project 94,Wind Power Plant,Commissioning,West,Completed,Electrical,Contractor GridForce Engineering,06/11/2021,08/24/2023,436070000.0,478754340.16,0,Over Budget
+PP-1095,Solar Plant Project 95,Solar Power Plant,Design,West,Delayed,EHS (Safety),Contractor IronPeak Industrial,01/20/2021,10/20/2023,235300000.0,227076892.38,1,Within Budget
+PP-1096,Natural Gas Plant Project 96,Natural Gas Power Plant,Construction,East,Delayed,Quality Control,Contractor NorthStar Infra,05/28/2022,03/05/2024,423430000.0,393657281.57,1,Within Budget
+PP-1097,Geothermal Plant Project 97,Geothermal Power Plant,Planning,South,On Hold,Procurement,Contractor MegaWatt Contracting,08/29/2022,02/10/2025,151140000.0,187591611.76,2,Over Budget
+PP-1098,Hydroelectric Plant Project 98,Hydroelectric Power Plant,Planning,Central,Ongoing,Procurement,Contractor PowerLine Systems,08/10/2022,04/10/2025,400440000.0,437611243.15,1,Over Budget
+PP-1099,Wind Plant Project 99,Wind Power Plant,Commissioning,East,Completed,Quality Control,Contractor BrightVolt Constructors,03/22/2021,07/31/2022,395360000.0,341332400.43,1,Within Budget
+PP-1100,Solar Plant Project 100,Solar Power Plant,Planning,East,Delayed,Quality Control,Contractor NorthStar Infra,12/26/2021,01/15/2023,70420000.0,75051037.76,5,Over Budget
+PP-1101,Hydroelectric Plant Project 101,Hydroelectric Power Plant,Design,East,On Hold,Mechanical,Contractor MegaWatt Contracting,08/24/2021,06/14/2023,481630000.0,436502620.45,4,Within Budget
+PP-1102,Biomass Plant Project 102,Biomass Power Plant,Commissioning,East,Ongoing,EHS (Safety),Contractor Alpha Energy Corp,06/26/2022,06/24/2024,66180000.0,66010199.55,2,Within Budget
+PP-1103,Hydroelectric Plant Project 103,Hydroelectric Power Plant,Commissioning,West,Delayed,Civil,Contractor Helios Power Builders,08/24/2023,03/16/2024,311680000.0,382514782.53,0,Over Budget
+PP-1104,Wind Plant Project 104,Wind Power Plant,Completed,North,On Hold,Quality Control,Contractor IronPeak Industrial,04/17/2023,02/10/2024,74190000.0,91142757.25,0,Over Budget
+PP-1105,Geothermal Plant Project 105,Geothermal Power Plant,Planning,North,Completed,Procurement,Contractor GridForce Engineering,03/07/2023,12/10/2024,188650000.0,231992772.78,2,Over Budget
+PP-1106,Biomass Plant Project 106,Biomass Power Plant,Commissioning,South,On Hold,Quality Control,Contractor BrightVolt Constructors,09/30/2023,12/18/2025,207020000.0,254760594.47,0,Over Budget
+PP-1107,Nuclear Plant Project 107,Nuclear Power Plant,Design,West,On Hold,Electrical,Contractor MegaWatt Contracting,07/23/2021,12/22/2023,186830000.0,226191061.35,2,Over Budget
+PP-1108,Coal Plant Project 108,Coal Power Plant,Construction,East,Completed,Civil,Contractor PowerLine Systems,07/07/2021,11/12/2023,109990000.0,121626630.44,5,Over Budget
+PP-1109,Coal Plant Project 109,Coal Power Plant,Procurement,South,Completed,Procurement,Contractor Helios Power Builders,05/21/2021,03/15/2024,383750000.0,357986156.35,0,Within Budget
+PP-1110,Wind Plant Project 110,Wind Power Plant,Procurement,South,Ongoing,Mechanical,Contractor GridForce Engineering,09/24/2021,09/27/2023,129070000.0,118718437.36,2,Within Budget
+PP-1111,Coal Plant Project 111,Coal Power Plant,Design,North,Delayed,Electrical,Contractor Voltage Dynamics,10/26/2022,05/10/2023,91250000.0,79475064.15,2,Within Budget
+PP-1112,Natural Gas Plant Project 112,Natural Gas Power Plant,Completed,North,On Hold,EHS (Safety),Contractor MegaWatt Contracting,11/18/2023,01/13/2026,58980000.0,62019562.37,4,Over Budget
+PP-1113,Coal Plant Project 113,Coal Power Plant,Completed,Central,Delayed,EHS (Safety),Contractor Alpha Energy Corp,05/05/2021,03/06/2023,424410000.0,433114414.7,0,Over Budget
+PP-1114,Geothermal Plant Project 114,Geothermal Power Plant,Planning,North,Delayed,Procurement,Contractor GridForce Engineering,05/15/2021,03/20/2022,141130000.0,155698947.24,1,Over Budget
+PP-1115,Nuclear Plant Project 115,Nuclear Power Plant,Construction,Central,Delayed,EHS (Safety),Contractor Summit Turbine Works,06/01/2023,03/08/2024,397580000.0,356138498.77,2,Within Budget
+PP-1116,Wind Plant Project 116,Wind Power Plant,Construction,West,Completed,EHS (Safety),Contractor MegaWatt Contracting,07/18/2023,02/25/2025,210910000.0,187295321.74,1,Within Budget
+PP-1117,Hydroelectric Plant Project 117,Hydroelectric Power Plant,Procurement,South,On Hold,Civil,Contractor BrightVolt Constructors,06/24/2021,03/26/2022,218780000.0,251123469.87,1,Over Budget
+PP-1118,Solar Plant Project 118,Solar Power Plant,Commissioning,North,Delayed,Quality Control,Contractor BrightVolt Constructors,04/22/2023,10/15/2024,437440000.0,536499139.93,1,Over Budget
+PP-1119,Coal Plant Project 119,Coal Power Plant,Procurement,Central,Delayed,Mechanical,Contractor BrightVolt Constructors,11/06/2023,12/07/2024,81590000.0,85088233.13,3,Over Budget
+PP-1120,Nuclear Plant Project 120,Nuclear Power Plant,Commissioning,East,Ongoing,Mechanical,Contractor Voltage Dynamics,04/09/2022,01/09/2025,217410000.0,233582321.29,2,Over Budget
